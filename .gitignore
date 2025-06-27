@@ -1,0 +1,6 @@
+# project
+/config.json
+/resources/
+/database.sqlite
+/cmbxip*
+*.syso

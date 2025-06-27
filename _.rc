@@ -1,0 +1,26 @@
+// https://learn.microsoft.com/en-us/windows/win32/menurc/versioninfo-resource
+
+1   ICON    "_.ico"
+
+1   VERSIONINFO
+    FILEVERSION    DEF_VERNUM
+    PRODUCTVERSION DEF_VERNUM
+{
+    BLOCK "StringFileInfo"
+    {
+        BLOCK "0419FDE9"
+        {
+            VALUE "CompanyName",        "ГБУ СО «Цифровой Регион»\0"
+            VALUE "FileDescription",    "Company media to bitrix import program\0"
+            VALUE "FileVersion",        DEF_VERSTR "\0"
+            VALUE "LegalCopyright",     "© 2022-2024 ГБУ СО «Цифровой Регион»\0"
+            VALUE "OriginalFilename",   DEF_ORIGFILENAME "\0"
+            VALUE "ProductName",        "CMBXIP\0"
+            VALUE "ProductVersion",     DEF_VERSTR "\0"
+        }
+    }
+    BLOCK "VarFileInfo"
+    {
+        VALUE "Translation", 0x0419, 0xFDE9
+    }
+}
