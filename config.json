@@ -1,0 +1,16 @@
+{
+    "cm": {
+        "api_entry": "",
+        "save_auth": false,
+        "auth": ""
+    },
+    "bx": {
+        "save_inhook": false,
+        "inhook": "",
+        "task_title": "{{.Type}} № {{.RegNumPrefix}}{{.RegNumber}}{{.RegNumSuffix}} \"{{.Title}}\" от {{.RegDate}}{{if .Correspondent.Organization.FullName}} - {{.Correspondent.Organization.FullName}}{{end}}",
+        "task_description": "{{.URL}}",
+        "root_autofind_enabled": false,
+        "root_autofind_is_auditor": false,
+        "root_autofind_id": ""
+    }
+}
